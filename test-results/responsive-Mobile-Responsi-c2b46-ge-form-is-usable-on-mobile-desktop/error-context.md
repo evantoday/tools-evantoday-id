@@ -1,0 +1,124 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "EvanTools" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: EvanTools
+      - generic [ref=e6]: Media Downloader
+  - main [ref=e7]:
+    - navigation "Breadcrumb" [ref=e8]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Home" [ref=e11] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e12]:
+          - img [ref=e13]
+          - generic [ref=e15]: TikTok Video Downloader
+    - generic [ref=e16]:
+      - heading "Download TikTok Videos Without Watermark" [level=1] [ref=e17]
+      - paragraph [ref=e18]: Download TikTok videos without watermark for free. Paste any TikTok link and save clean HD videos to your device instantly. No signup required.
+      - generic [ref=e21]:
+        - textbox "https://www.tiktok.com/@user/video/1234567890" [ref=e22]
+        - button "Download" [ref=e23]:
+          - generic [ref=e24]: Download
+    - generic [ref=e26]:
+      - heading "How It Works" [level=2] [ref=e27]
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]: "1"
+          - heading "Copy Link" [level=3] [ref=e31]
+          - paragraph [ref=e32]: Copy the video or image URL from the app
+        - generic [ref=e33]:
+          - generic [ref=e34]: "2"
+          - heading "Paste URL" [level=3] [ref=e35]
+          - paragraph [ref=e36]: Paste the link in the box above
+        - generic [ref=e37]:
+          - generic [ref=e38]: "3"
+          - heading "Download" [level=3] [ref=e39]
+          - paragraph [ref=e40]: Click download and save to your device
+    - generic [ref=e42]:
+      - insertion
+    - generic [ref=e44]:
+      - paragraph [ref=e45]: TikTok is the most popular short-form video platform, and sometimes you want to save a video to watch offline or share it somewhere else. Our free TikTok downloader lets you save any public TikTok video without the watermark in HD quality.
+      - paragraph [ref=e46]: Just copy the TikTok video link from the app or website, paste it in the box above, and hit download. You'll get a clean video without the TikTok logo overlay, saved directly to your device. Works on iPhone, Android, Windows, and Mac — no app installation needed.
+      - paragraph [ref=e47]: This tool only downloads publicly available videos. We do not store any videos on our servers. The download happens directly between your browser and the source servers.
+    - generic [ref=e49]:
+      - insertion
+    - generic [ref=e50]:
+      - heading "Frequently Asked Questions" [level=2] [ref=e51]
+      - generic [ref=e52]:
+        - button "How do I copy a TikTok video link?" [ref=e54]:
+          - generic [ref=e55]: How do I copy a TikTok video link?
+          - img [ref=e56]
+        - button "Is this TikTok downloader free?" [ref=e59]:
+          - generic [ref=e60]: Is this TikTok downloader free?
+          - img [ref=e61]
+        - button "Can I download TikTok videos on my phone?" [ref=e64]:
+          - generic [ref=e65]: Can I download TikTok videos on my phone?
+          - img [ref=e66]
+        - button "Does this remove the TikTok watermark?" [ref=e69]:
+          - generic [ref=e70]: Does this remove the TikTok watermark?
+          - img [ref=e71]
+        - button "Is it legal to download TikTok videos?" [ref=e74]:
+          - generic [ref=e75]: Is it legal to download TikTok videos?
+          - img [ref=e76]
+    - generic [ref=e79]:
+      - heading "You might also like" [level=2] [ref=e80]
+      - generic [ref=e81]:
+        - link "IG Reels Video Download Instagram Reels videos in HD quality. Open tool" [ref=e82] [cursor=pointer]:
+          - /url: /instagram-reels-downloader
+          - generic [ref=e83]:
+            - heading "IG Reels" [level=3] [ref=e84]
+            - generic [ref=e86]:
+              - img [ref=e87]
+              - text: Video
+          - paragraph [ref=e89]: Download Instagram Reels videos in HD quality.
+          - generic [ref=e90]:
+            - generic [ref=e91]: Open tool
+            - img [ref=e92]
+        - link "YT Shorts Video Download YouTube Shorts videos for free. Open tool" [ref=e94] [cursor=pointer]:
+          - /url: /youtube-shorts-downloader
+          - generic [ref=e95]:
+            - heading "YT Shorts" [level=3] [ref=e96]
+            - generic [ref=e98]:
+              - img [ref=e99]
+              - text: Video
+          - paragraph [ref=e101]: Download YouTube Shorts videos for free.
+          - generic [ref=e102]:
+            - generic [ref=e103]: Open tool
+            - img [ref=e104]
+        - link "Twitter/X Video Image Download Twitter (X) videos and GIFs for free. Open tool" [ref=e106] [cursor=pointer]:
+          - /url: /twitter-video-downloader
+          - generic [ref=e107]:
+            - heading "Twitter/X" [level=3] [ref=e108]
+            - generic [ref=e109]:
+              - generic [ref=e110]:
+                - img [ref=e111]
+                - text: Video
+              - generic [ref=e113]:
+                - img [ref=e114]
+                - text: Image
+          - paragraph [ref=e116]: Download Twitter (X) videos and GIFs for free.
+          - generic [ref=e117]:
+            - generic [ref=e118]: Open tool
+            - img [ref=e119]
+    - generic [ref=e122]:
+      - insertion
+  - contentinfo [ref=e123]:
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - link "Privacy Policy" [ref=e127] [cursor=pointer]:
+            - /url: /privacy
+          - generic [ref=e128]: "|"
+          - link "Terms of Service" [ref=e129] [cursor=pointer]:
+            - /url: /terms
+        - generic [ref=e130]:
+          - text: A project by
+          - link "Evan Today" [ref=e131] [cursor=pointer]:
+            - /url: https://evantoday.id
+      - generic [ref=e132]: © 2026 EvanTools. All rights reserved.
+```

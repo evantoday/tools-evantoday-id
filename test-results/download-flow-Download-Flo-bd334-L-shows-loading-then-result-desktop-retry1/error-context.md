@@ -1,0 +1,130 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "EvanTools" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: EvanTools
+      - generic [ref=e6]: Free Online Media Downloader
+  - main [ref=e7]:
+    - navigation "Breadcrumb" [ref=e8]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Home" [ref=e11] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e12]:
+          - img [ref=e13]
+          - generic [ref=e15]: TikTok Video Downloader
+    - generic [ref=e16]:
+      - heading "Download TikTok Videos Without Watermark" [level=1] [ref=e17]
+      - paragraph [ref=e18]: Download TikTok videos without watermark for free. Paste any TikTok link and save clean HD videos to your device instantly. No signup required.
+      - generic [ref=e19]:
+        - generic [ref=e21]:
+          - textbox "https://www.tiktok.com/@user/video/1234567890" [ref=e22]: https://www.tiktok.com/@khaby.lame/video/7225108637744896261
+          - button "Download" [ref=e23]:
+            - generic [ref=e24]: Download
+        - generic [ref=e27]:
+          - img [ref=e28]
+          - paragraph [ref=e30]: Failed to process this URL. Please check and try again.
+          - paragraph [ref=e31]: Please check the URL and try again.
+          - button "Try Again" [ref=e32]
+    - generic [ref=e34]:
+      - heading "How It Works" [level=2] [ref=e35]
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]: "1"
+          - heading "Copy Link" [level=3] [ref=e39]
+          - paragraph [ref=e40]: Copy the video or image URL from the app
+        - generic [ref=e41]:
+          - generic [ref=e42]: "2"
+          - heading "Paste URL" [level=3] [ref=e43]
+          - paragraph [ref=e44]: Paste the link in the box above
+        - generic [ref=e45]:
+          - generic [ref=e46]: "3"
+          - heading "Download" [level=3] [ref=e47]
+          - paragraph [ref=e48]: Click download and save to your device
+    - generic [ref=e50]:
+      - insertion
+    - generic [ref=e52]:
+      - paragraph [ref=e53]: TikTok is the most popular short-form video platform, and sometimes you want to save a video to watch offline or share it somewhere else. Our free TikTok downloader lets you save any public TikTok video without the watermark in HD quality.
+      - paragraph [ref=e54]: Just copy the TikTok video link from the app or website, paste it in the box above, and hit download. You'll get a clean video without the TikTok logo overlay, saved directly to your device. Works on iPhone, Android, Windows, and Mac — no app installation needed.
+      - paragraph [ref=e55]: This tool only downloads publicly available videos. We do not store any videos on our servers. The download happens directly between your browser and the source servers.
+    - generic [ref=e57]:
+      - insertion
+    - generic [ref=e58]:
+      - heading "Frequently Asked Questions" [level=2] [ref=e59]
+      - generic [ref=e60]:
+        - button "How do I copy a TikTok video link?" [ref=e62]:
+          - generic [ref=e63]: How do I copy a TikTok video link?
+          - img [ref=e64]
+        - button "Is this TikTok downloader free?" [ref=e67]:
+          - generic [ref=e68]: Is this TikTok downloader free?
+          - img [ref=e69]
+        - button "Can I download TikTok videos on my phone?" [ref=e72]:
+          - generic [ref=e73]: Can I download TikTok videos on my phone?
+          - img [ref=e74]
+        - button "Does this remove the TikTok watermark?" [ref=e77]:
+          - generic [ref=e78]: Does this remove the TikTok watermark?
+          - img [ref=e79]
+        - button "Is it legal to download TikTok videos?" [ref=e82]:
+          - generic [ref=e83]: Is it legal to download TikTok videos?
+          - img [ref=e84]
+    - generic [ref=e87]:
+      - heading "You might also like" [level=2] [ref=e88]
+      - generic [ref=e89]:
+        - link "IG Reels Video Download Instagram Reels videos in HD quality. Open tool" [ref=e90] [cursor=pointer]:
+          - /url: /instagram-reels-downloader
+          - generic [ref=e91]:
+            - heading "IG Reels" [level=3] [ref=e92]
+            - generic [ref=e94]:
+              - img [ref=e95]
+              - text: Video
+          - paragraph [ref=e97]: Download Instagram Reels videos in HD quality.
+          - generic [ref=e98]:
+            - generic [ref=e99]: Open tool
+            - img [ref=e100]
+        - link "YT Shorts Video Download YouTube Shorts videos for free. Open tool" [ref=e102] [cursor=pointer]:
+          - /url: /youtube-shorts-downloader
+          - generic [ref=e103]:
+            - heading "YT Shorts" [level=3] [ref=e104]
+            - generic [ref=e106]:
+              - img [ref=e107]
+              - text: Video
+          - paragraph [ref=e109]: Download YouTube Shorts videos for free.
+          - generic [ref=e110]:
+            - generic [ref=e111]: Open tool
+            - img [ref=e112]
+        - link "Twitter/X Video Image Download Twitter (X) videos and GIFs for free. Open tool" [ref=e114] [cursor=pointer]:
+          - /url: /twitter-video-downloader
+          - generic [ref=e115]:
+            - heading "Twitter/X" [level=3] [ref=e116]
+            - generic [ref=e117]:
+              - generic [ref=e118]:
+                - img [ref=e119]
+                - text: Video
+              - generic [ref=e121]:
+                - img [ref=e122]
+                - text: Image
+          - paragraph [ref=e124]: Download Twitter (X) videos and GIFs for free.
+          - generic [ref=e125]:
+            - generic [ref=e126]: Open tool
+            - img [ref=e127]
+    - generic [ref=e130]:
+      - insertion
+  - contentinfo [ref=e131]:
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - link "Privacy Policy" [ref=e135] [cursor=pointer]:
+            - /url: /privacy
+          - generic [ref=e136]: "|"
+          - link "Terms of Service" [ref=e137] [cursor=pointer]:
+            - /url: /terms
+        - generic [ref=e138]:
+          - text: A project by
+          - link "Evan Today" [ref=e139] [cursor=pointer]:
+            - /url: https://evantoday.id
+      - generic [ref=e140]: © 2026 EvanTools. All rights reserved.
+```

@@ -1,0 +1,218 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "EvanTools" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: EvanTools
+      - generic [ref=e6]: Free Online Media Downloader
+  - main [ref=e7]:
+    - generic [ref=e8]:
+      - heading "Download Videos & Images from Any Platform" [level=1] [ref=e9]:
+        - text: Download Videos & Images
+        - text: from Any Platform
+      - paragraph [ref=e10]: Free online tools to download from TikTok, Instagram, YouTube, Twitter, and more. No signup, no app, no hassle.
+    - generic [ref=e12]:
+      - link "TikTok Video Download TikTok videos without watermark for free. Open tool" [ref=e13] [cursor=pointer]:
+        - /url: /tiktok-downloader
+        - generic [ref=e14]:
+          - heading "TikTok" [level=3] [ref=e15]
+          - generic [ref=e17]:
+            - img [ref=e18]
+            - text: Video
+        - paragraph [ref=e20]: Download TikTok videos without watermark for free.
+        - generic [ref=e21]:
+          - generic [ref=e22]: Open tool
+          - img [ref=e23]
+      - link "Instagram Video Image Download Instagram photos and videos for free. Open tool" [ref=e25] [cursor=pointer]:
+        - /url: /instagram-downloader
+        - generic [ref=e26]:
+          - heading "Instagram" [level=3] [ref=e27]
+          - generic [ref=e28]:
+            - generic [ref=e29]:
+              - img [ref=e30]
+              - text: Video
+            - generic [ref=e32]:
+              - img [ref=e33]
+              - text: Image
+        - paragraph [ref=e35]: Download Instagram photos and videos for free.
+        - generic [ref=e36]:
+          - generic [ref=e37]: Open tool
+          - img [ref=e38]
+      - link "IG Reels Video Download Instagram Reels videos in HD quality. Open tool" [ref=e40] [cursor=pointer]:
+        - /url: /instagram-reels-downloader
+        - generic [ref=e41]:
+          - heading "IG Reels" [level=3] [ref=e42]
+          - generic [ref=e44]:
+            - img [ref=e45]
+            - text: Video
+        - paragraph [ref=e47]: Download Instagram Reels videos in HD quality.
+        - generic [ref=e48]:
+          - generic [ref=e49]: Open tool
+          - img [ref=e50]
+      - link "IG Stories Video Image Download Instagram Stories before they disappear. Open tool" [ref=e52] [cursor=pointer]:
+        - /url: /instagram-story-downloader
+        - generic [ref=e53]:
+          - heading "IG Stories" [level=3] [ref=e54]
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - img [ref=e57]
+              - text: Video
+            - generic [ref=e59]:
+              - img [ref=e60]
+              - text: Image
+        - paragraph [ref=e62]: Download Instagram Stories before they disappear.
+        - generic [ref=e63]:
+          - generic [ref=e64]: Open tool
+          - img [ref=e65]
+      - link "IG Profile Pic Image Download any Instagram profile picture in full size HD. Open tool" [ref=e67] [cursor=pointer]:
+        - /url: /instagram-profile-picture-downloader
+        - generic [ref=e68]:
+          - heading "IG Profile Pic" [level=3] [ref=e69]
+          - generic [ref=e71]:
+            - img [ref=e72]
+            - text: Image
+        - paragraph [ref=e74]: Download any Instagram profile picture in full size HD.
+        - generic [ref=e75]:
+          - generic [ref=e76]: Open tool
+          - img [ref=e77]
+      - link "YouTube Video Audio Download YouTube videos in HD quality for free. Open tool" [ref=e79] [cursor=pointer]:
+        - /url: /youtube-downloader
+        - generic [ref=e80]:
+          - heading "YouTube" [level=3] [ref=e81]
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - img [ref=e84]
+              - text: Video
+            - generic [ref=e86]:
+              - img [ref=e87]
+              - text: Audio
+        - paragraph [ref=e89]: Download YouTube videos in HD quality for free.
+        - generic [ref=e90]:
+          - generic [ref=e91]: Open tool
+          - img [ref=e92]
+      - link "YT Shorts Video Download YouTube Shorts videos for free. Open tool" [ref=e94] [cursor=pointer]:
+        - /url: /youtube-shorts-downloader
+        - generic [ref=e95]:
+          - heading "YT Shorts" [level=3] [ref=e96]
+          - generic [ref=e98]:
+            - img [ref=e99]
+            - text: Video
+        - paragraph [ref=e101]: Download YouTube Shorts videos for free.
+        - generic [ref=e102]:
+          - generic [ref=e103]: Open tool
+          - img [ref=e104]
+      - link "Twitter/X Video Image Download Twitter (X) videos and GIFs for free. Open tool" [ref=e106] [cursor=pointer]:
+        - /url: /twitter-video-downloader
+        - generic [ref=e107]:
+          - heading "Twitter/X" [level=3] [ref=e108]
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - img [ref=e111]
+              - text: Video
+            - generic [ref=e113]:
+              - img [ref=e114]
+              - text: Image
+        - paragraph [ref=e116]: Download Twitter (X) videos and GIFs for free.
+        - generic [ref=e117]:
+          - generic [ref=e118]: Open tool
+          - img [ref=e119]
+      - link "Facebook Video Download Facebook videos in HD for free. Open tool" [ref=e121] [cursor=pointer]:
+        - /url: /facebook-video-downloader
+        - generic [ref=e122]:
+          - heading "Facebook" [level=3] [ref=e123]
+          - generic [ref=e125]:
+            - img [ref=e126]
+            - text: Video
+        - paragraph [ref=e128]: Download Facebook videos in HD for free.
+        - generic [ref=e129]:
+          - generic [ref=e130]: Open tool
+          - img [ref=e131]
+      - link "Pinterest Video Image Download Pinterest images and videos in full resolution. Open tool" [ref=e133] [cursor=pointer]:
+        - /url: /pinterest-downloader
+        - generic [ref=e134]:
+          - heading "Pinterest" [level=3] [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]:
+              - img [ref=e138]
+              - text: Video
+            - generic [ref=e140]:
+              - img [ref=e141]
+              - text: Image
+        - paragraph [ref=e143]: Download Pinterest images and videos in full resolution.
+        - generic [ref=e144]:
+          - generic [ref=e145]: Open tool
+          - img [ref=e146]
+      - link "Snapchat Video Download Snapchat Spotlight and public story videos for free. Open tool" [ref=e148] [cursor=pointer]:
+        - /url: /snapchat-downloader
+        - generic [ref=e149]:
+          - heading "Snapchat" [level=3] [ref=e150]
+          - generic [ref=e152]:
+            - img [ref=e153]
+            - text: Video
+        - paragraph [ref=e155]: Download Snapchat Spotlight and public story videos for free.
+        - generic [ref=e156]:
+          - generic [ref=e157]: Open tool
+          - img [ref=e158]
+      - link "Threads Video Image Download Threads videos and images for free. Open tool" [ref=e160] [cursor=pointer]:
+        - /url: /threads-downloader
+        - generic [ref=e161]:
+          - heading "Threads" [level=3] [ref=e162]
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - img [ref=e165]
+              - text: Video
+            - generic [ref=e167]:
+              - img [ref=e168]
+              - text: Image
+        - paragraph [ref=e170]: Download Threads videos and images for free.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Open tool
+          - img [ref=e173]
+    - generic [ref=e176]:
+      - heading "How It Works" [level=2] [ref=e177]
+      - generic [ref=e178]:
+        - generic [ref=e179]:
+          - generic [ref=e180]: "1"
+          - heading "Copy Link" [level=3] [ref=e181]
+          - paragraph [ref=e182]: Copy the video or image URL from any supported platform.
+        - generic [ref=e183]:
+          - generic [ref=e184]: "2"
+          - heading "Paste URL" [level=3] [ref=e185]
+          - paragraph [ref=e186]: Paste the link into the downloader tool of your choice.
+        - generic [ref=e187]:
+          - generic [ref=e188]: "3"
+          - heading "Download" [level=3] [ref=e189]
+          - paragraph [ref=e190]: Click download and save the file to your device.
+    - generic [ref=e191]:
+      - heading "Why Use EvanTools?" [level=2] [ref=e192]
+      - generic [ref=e193]:
+        - generic [ref=e194]:
+          - heading "100% Free" [level=3] [ref=e195]
+          - paragraph [ref=e196]: No hidden fees, no premium plans. Every tool is completely free to use.
+        - generic [ref=e197]:
+          - heading "No Signup Required" [level=3] [ref=e198]
+          - paragraph [ref=e199]: Just paste your link and download. No account, no email, no friction.
+        - generic [ref=e200]:
+          - heading "Works on Any Device" [level=3] [ref=e201]
+          - paragraph [ref=e202]: iPhone, Android, Windows, Mac — if you have a browser, it works.
+        - generic [ref=e203]:
+          - heading "Fast & Secure" [level=3] [ref=e204]
+          - paragraph [ref=e205]: Downloads happen directly from the platform's servers. We don't store your data.
+  - contentinfo [ref=e206]:
+    - generic [ref=e207]:
+      - generic [ref=e208]:
+        - generic [ref=e209]:
+          - link "Privacy Policy" [ref=e210] [cursor=pointer]:
+            - /url: /privacy
+          - generic [ref=e211]: "|"
+          - link "Terms of Service" [ref=e212] [cursor=pointer]:
+            - /url: /terms
+        - generic [ref=e213]:
+          - text: A project by
+          - link "Evan Today" [ref=e214] [cursor=pointer]:
+            - /url: https://evantoday.id
+      - generic [ref=e215]: © 2026 EvanTools. All rights reserved.
+```
