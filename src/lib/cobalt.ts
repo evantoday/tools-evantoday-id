@@ -29,6 +29,8 @@ export async function fetchMedia(url: string): Promise<DownloadResponse> {
         url,
         downloadMode: "auto",
         filenameStyle: "basic",
+        tiktokFullAudio: true,
+        tiktokH265: false,
       }),
     });
 
