@@ -1,0 +1,20 @@
+{
+  "name": "tools-evantoday-id",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^12.5.1",
+    "@astrojs/sitemap": "^3.3.1",
+    "astro": "^5.7.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.4",
+    "tailwindcss": "^4.1.4",
+    "wrangler": "^4.14.1"
+  }
+}

@@ -1,0 +1,38 @@
+---
+const steps = [
+	{
+		number: 1,
+		title: 'Copy Link',
+		description: 'Copy the video or image URL from the app',
+	},
+	{
+		number: 2,
+		title: 'Paste URL',
+		description: 'Paste the link in the box above',
+	},
+	{
+		number: 3,
+		title: 'Download',
+		description: 'Click download and save to your device',
+	},
+];
+---
+
+<section class="bg-gray-50 py-12 sm:py-16">
+	<div class="max-w-3xl mx-auto px-4 sm:px-6">
+		<h2 class="text-xl sm:text-2xl font-bold text-gray-900 text-center mb-10">
+			How It Works
+		</h2>
+		<div class="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-6">
+			{steps.map((step) => (
+				<div class="flex flex-col items-center text-center">
+					<div class="w-12 h-12 rounded-full bg-gray-900 text-white flex items-center justify-center text-lg font-bold mb-4">
+						{step.number}
+					</div>
+					<h3 class="font-semibold text-gray-900 text-base mb-1.5">{step.title}</h3>
+					<p class="text-sm text-gray-500 leading-relaxed">{step.description}</p>
+				</div>
+			))}
+		</div>
+	</div>
+</section>

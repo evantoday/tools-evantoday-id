@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ToolCard from '../components/ToolCard.astro';
+import { tools } from '../data/tools';
+import { SITE_DESCRIPTION } from '../consts';
+---
+
+<BaseLayout title="Free Online Video & Image Downloader" description={SITE_DESCRIPTION}>
+	<script type="application/ld+json" set:html={JSON.stringify({
+		'@context': 'https://schema.org',
+		'@type': 'WebSite',
+		name: 'EvanTools',
+		description: SITE_DESCRIPTION,
+		url: 'https://tools.evantoday.id',
+	})} />
+
+	<section class="max-w-4xl mx-auto px-4 sm:px-6 pt-16 pb-12 text-center">
+		<h1 class="text-3xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">
+			Download Videos & Images<br />from Any Platform
+		</h1>
+		<p class="text-lg text-gray-500 max-w-2xl mx-auto">
+			Free online tools to download from TikTok, Instagram, YouTube, Twitter, and more. No signup, no app, no hassle.
+		</p>
+	</section>
+
+	<section class="max-w-5xl mx-auto px-4 sm:px-6 pb-16">
+		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+			{tools.map((tool) => (
+				<ToolCard tool={tool} />
+			))}
+		</div>
+	</section>
+
+	<section class="bg-gray-50 border-t border-gray-200 py-16">
+		<div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+			<h2 class="text-2xl font-bold text-gray-900 mb-4">How It Works</h2>
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+				<div>
+					<div class="w-12 h-12 bg-gray-900 text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-3">1</div>
+					<h3 class="font-semibold text-gray-900 mb-1">Copy Link</h3>
+					<p class="text-sm text-gray-500">Copy the video or image URL from any supported platform.</p>
+				</div>
+				<div>
+					<div class="w-12 h-12 bg-gray-900 text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-3">2</div>
+					<h3 class="font-semibold text-gray-900 mb-1">Paste URL</h3>
+					<p class="text-sm text-gray-500">Paste the link into the downloader tool of your choice.</p>
+				</div>
+				<div>
+					<div class="w-12 h-12 bg-gray-900 text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-3">3</div>
+					<h3 class="font-semibold text-gray-900 mb-1">Download</h3>
+					<p class="text-sm text-gray-500">Click download and save the file to your device.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="max-w-3xl mx-auto px-4 sm:px-6 py-16">
+		<h2 class="text-2xl font-bold text-gray-900 mb-4 text-center">Why Use EvanTools?</h2>
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+			<div class="p-5 rounded-xl border border-gray-200">
+				<h3 class="font-semibold text-gray-900 mb-2">100% Free</h3>
+				<p class="text-sm text-gray-500">No hidden fees, no premium plans. Every tool is completely free to use.</p>
+			</div>
+			<div class="p-5 rounded-xl border border-gray-200">
+				<h3 class="font-semibold text-gray-900 mb-2">No Signup Required</h3>
+				<p class="text-sm text-gray-500">Just paste your link and download. No account, no email, no friction.</p>
+			</div>
+			<div class="p-5 rounded-xl border border-gray-200">
+				<h3 class="font-semibold text-gray-900 mb-2">Works on Any Device</h3>
+				<p class="text-sm text-gray-500">iPhone, Android, Windows, Mac — if you have a browser, it works.</p>
+			</div>
+			<div class="p-5 rounded-xl border border-gray-200">
+				<h3 class="font-semibold text-gray-900 mb-2">Fast & Secure</h3>
+				<p class="text-sm text-gray-500">Downloads happen directly from the platform's servers. We don't store your data.</p>
+			</div>
+		</div>
+	</section>
+</BaseLayout>

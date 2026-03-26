@@ -1,0 +1,50 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import DownloaderForm from '../components/DownloaderForm.astro';
+import HowItWorks from '../components/HowItWorks.astro';
+import FaqSection from '../components/FaqSection.astro';
+import AdSlot from '../components/AdSlot.astro';
+import ToolCard from '../components/ToolCard.astro';
+import { getToolBySlug, getRelatedTools } from '../data/tools';
+
+const tool = getToolBySlug('instagram-downloader')!;
+const related = getRelatedTools(tool);
+---
+
+<ToolLayout tool={tool}>
+	<section class="max-w-3xl mx-auto px-4 sm:px-6 pt-12 pb-8">
+		<h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">{tool.h1}</h1>
+		<p class="text-gray-500 mb-8">{tool.description}</p>
+		<DownloaderForm tool={tool} />
+	</section>
+
+	<HowItWorks />
+
+	<AdSlot />
+
+	<section class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
+		<div class="prose max-w-none text-gray-700 leading-relaxed">
+			{tool.content.split('\n\n').map((p) => <p>{p}</p>)}
+		</div>
+	</section>
+
+	<AdSlot />
+
+	<section class="max-w-3xl mx-auto px-4 sm:px-6 pb-12">
+		<h2 class="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
+		<FaqSection faq={tool.faq} />
+	</section>
+
+	{related.length > 0 && (
+		<section class="bg-gray-50 border-t border-gray-200 py-12">
+			<div class="max-w-5xl mx-auto px-4 sm:px-6">
+				<h2 class="text-lg font-semibold text-gray-900 mb-6">You might also like</h2>
+				<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+					{related.map((t) => <ToolCard tool={t} />)}
+				</div>
+			</div>
+		</section>
+	)}
+
+	<AdSlot />
+</ToolLayout>

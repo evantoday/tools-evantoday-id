@@ -1,0 +1,28 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+	title: string;
+	description: string;
+	noindex?: boolean;
+}
+
+const { title, description, noindex = false } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" class="antialiased">
+	<head>
+		<BaseHead title={title} description={description} />
+		{noindex && <meta name="robots" content="noindex, follow" />}
+	</head>
+	<body class="min-h-screen bg-white text-gray-900 flex flex-col">
+		<Header />
+		<main class="flex-1">
+			<slot />
+		</main>
+		<Footer />
+	</body>
+</html>
